@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Study\\9A(8A)\\ComputerGraphics\\3D - space station room\\",
+  "WorkspaceRootPath": "D:\\vs installer\\3D---space-station-room-pratyay\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD945532-02B5-4B64-A096-D6ACFF61F160}|3D.vcxproj|D:\\Study\\9A(8A)\\ComputerGraphics\\3D - space station room\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{AD945532-02B5-4B64-A096-D6ACFF61F160}|3D.vcxproj|D:\\vs installer\\3D---space-station-room-pratyay\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AD945532-02B5-4B64-A096-D6ACFF61F160}|3D.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD945532-02B5-4B64-A096-D6ACFF61F160}|3D.vcxproj|D:\\Study\\9A(8A)\\ComputerGraphics\\3D - space station room\\vertexShader.vs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{AD945532-02B5-4B64-A096-D6ACFF61F160}|3D.vcxproj|D:\\vs installer\\3D---space-station-room-pratyay\\vertexShader.vs||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{AD945532-02B5-4B64-A096-D6ACFF61F160}|3D.vcxproj|solutionrelative:vertexShader.vs||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD945532-02B5-4B64-A096-D6ACFF61F160}|3D.vcxproj|D:\\Study\\9A(8A)\\ComputerGraphics\\3D - space station room\\fragmentShader.fs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "AbsoluteMoniker": "D:0:0:{AD945532-02B5-4B64-A096-D6ACFF61F160}|3D.vcxproj|D:\\vs installer\\3D---space-station-room-pratyay\\fragmentShader.fs||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{AD945532-02B5-4B64-A096-D6ACFF61F160}|3D.vcxproj|solutionrelative:fragmentShader.fs||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD945532-02B5-4B64-A096-D6ACFF61F160}|3D.vcxproj|D:\\Study\\9A(8A)\\ComputerGraphics\\3D - space station room\\basic_camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{AD945532-02B5-4B64-A096-D6ACFF61F160}|3D.vcxproj|D:\\vs installer\\3D---space-station-room-pratyay\\basic_camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AD945532-02B5-4B64-A096-D6ACFF61F160}|3D.vcxproj|solutionrelative:basic_camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD945532-02B5-4B64-A096-D6ACFF61F160}|3D.vcxproj|D:\\Study\\9A(8A)\\ComputerGraphics\\3D - space station room\\camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{AD945532-02B5-4B64-A096-D6ACFF61F160}|3D.vcxproj|D:\\vs installer\\3D---space-station-room-pratyay\\camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AD945532-02B5-4B64-A096-D6ACFF61F160}|3D.vcxproj|solutionrelative:camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD945532-02B5-4B64-A096-D6ACFF61F160}|3D.vcxproj|D:\\Study\\9A(8A)\\ComputerGraphics\\3D - space station room\\shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{AD945532-02B5-4B64-A096-D6ACFF61F160}|3D.vcxproj|D:\\vs installer\\3D---space-station-room-pratyay\\shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AD945532-02B5-4B64-A096-D6ACFF61F160}|3D.vcxproj|solutionrelative:shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -40,9 +40,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "basic_camera.h",
-              "DocumentMoniker": "D:\\Study\\9A(8A)\\ComputerGraphics\\3D - space station room\\basic_camera.h",
+              "DocumentMoniker": "D:\\vs installer\\3D---space-station-room-pratyay\\basic_camera.h",
               "RelativeDocumentMoniker": "basic_camera.h",
-              "ToolTip": "D:\\Study\\9A(8A)\\ComputerGraphics\\3D - space station room\\basic_camera.h",
+              "ToolTip": "D:\\vs installer\\3D---space-station-room-pratyay\\basic_camera.h",
               "RelativeToolTip": "basic_camera.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -52,11 +52,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "D:\\Study\\9A(8A)\\ComputerGraphics\\3D - space station room\\main.cpp",
+              "DocumentMoniker": "D:\\vs installer\\3D---space-station-room-pratyay\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "D:\\Study\\9A(8A)\\ComputerGraphics\\3D - space station room\\main.cpp",
+              "ToolTip": "D:\\vs installer\\3D---space-station-room-pratyay\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAMADAAAAAAAAAAAUwNEDAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAACcEAAAAAAAAAAAUwMkDAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-04-20T13:47:19.117Z",
               "EditorCaption": ""
@@ -65,9 +65,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "vertexShader.vs",
-              "DocumentMoniker": "D:\\Study\\9A(8A)\\ComputerGraphics\\3D - space station room\\vertexShader.vs",
+              "DocumentMoniker": "D:\\vs installer\\3D---space-station-room-pratyay\\vertexShader.vs",
               "RelativeDocumentMoniker": "vertexShader.vs",
-              "ToolTip": "D:\\Study\\9A(8A)\\ComputerGraphics\\3D - space station room\\vertexShader.vs",
+              "ToolTip": "D:\\vs installer\\3D---space-station-room-pratyay\\vertexShader.vs",
               "RelativeToolTip": "vertexShader.vs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
@@ -77,9 +77,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "fragmentShader.fs",
-              "DocumentMoniker": "D:\\Study\\9A(8A)\\ComputerGraphics\\3D - space station room\\fragmentShader.fs",
+              "DocumentMoniker": "D:\\vs installer\\3D---space-station-room-pratyay\\fragmentShader.fs",
               "RelativeDocumentMoniker": "fragmentShader.fs",
-              "ToolTip": "D:\\Study\\9A(8A)\\ComputerGraphics\\3D - space station room\\fragmentShader.fs",
+              "ToolTip": "D:\\vs installer\\3D---space-station-room-pratyay\\fragmentShader.fs",
               "RelativeToolTip": "fragmentShader.fs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
@@ -89,9 +89,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "shader.h",
-              "DocumentMoniker": "D:\\Study\\9A(8A)\\ComputerGraphics\\3D - space station room\\shader.h",
+              "DocumentMoniker": "D:\\vs installer\\3D---space-station-room-pratyay\\shader.h",
               "RelativeDocumentMoniker": "shader.h",
-              "ToolTip": "D:\\Study\\9A(8A)\\ComputerGraphics\\3D - space station room\\shader.h",
+              "ToolTip": "D:\\vs installer\\3D---space-station-room-pratyay\\shader.h",
               "RelativeToolTip": "shader.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAKIAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -101,23 +101,13 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "camera.h",
-              "DocumentMoniker": "D:\\Study\\9A(8A)\\ComputerGraphics\\3D - space station room\\camera.h",
+              "DocumentMoniker": "D:\\vs installer\\3D---space-station-room-pratyay\\camera.h",
               "RelativeDocumentMoniker": "camera.h",
-              "ToolTip": "D:\\Study\\9A(8A)\\ComputerGraphics\\3D - space station room\\camera.h",
+              "ToolTip": "D:\\vs installer\\3D---space-station-room-pratyay\\camera.h",
               "RelativeToolTip": "camera.h",
               "ViewState": "AQIAAEsAAAAAAAAAAAAAAIkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-04-20T13:47:19.303Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 111,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

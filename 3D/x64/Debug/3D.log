@@ -1,28 +1,28 @@
 ﻿  main.cpp
-D:\Study\9A(8A)\ComputerGraphics\3D - space station room\main.cpp(338,36): warning C4101: 'rotateXMatrix': unreferenced local variable
-D:\Study\9A(8A)\ComputerGraphics\3D - space station room\main.cpp(338,51): warning C4101: 'rotateYMatrix': unreferenced local variable
-D:\Study\9A(8A)\ComputerGraphics\3D - space station room\main.cpp(868,70): warning C4305: '+=': truncation from 'double' to 'float'
-D:\Study\9A(8A)\ComputerGraphics\3D - space station room\main.cpp(869,70): warning C4305: '-=': truncation from 'double' to 'float'
-D:\Study\9A(8A)\ComputerGraphics\3D - space station room\main.cpp(870,70): warning C4305: '+=': truncation from 'double' to 'float'
-D:\Study\9A(8A)\ComputerGraphics\3D - space station room\main.cpp(871,70): warning C4305: '-=': truncation from 'double' to 'float'
-D:\Study\9A(8A)\ComputerGraphics\3D - space station room\main.cpp(872,70): warning C4305: '+=': truncation from 'double' to 'float'
-D:\Study\9A(8A)\ComputerGraphics\3D - space station room\main.cpp(873,70): warning C4305: '-=': truncation from 'double' to 'float'
-D:\Study\9A(8A)\ComputerGraphics\3D - space station room\main.cpp(874,66): warning C4305: '+=': truncation from 'double' to 'float'
-D:\Study\9A(8A)\ComputerGraphics\3D - space station room\main.cpp(875,66): warning C4305: '-=': truncation from 'double' to 'float'
-D:\Study\9A(8A)\ComputerGraphics\3D - space station room\main.cpp(876,66): warning C4305: '+=': truncation from 'double' to 'float'
-D:\Study\9A(8A)\ComputerGraphics\3D - space station room\main.cpp(877,66): warning C4305: '-=': truncation from 'double' to 'float'
-D:\Study\9A(8A)\ComputerGraphics\3D - space station room\main.cpp(878,66): warning C4305: '+=': truncation from 'double' to 'float'
-D:\Study\9A(8A)\ComputerGraphics\3D - space station room\main.cpp(879,66): warning C4305: '-=': truncation from 'double' to 'float'
-D:\Study\9A(8A)\ComputerGraphics\3D - space station room\main.cpp(905,21): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-D:\Study\9A(8A)\ComputerGraphics\3D - space station room\main.cpp(910,21): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
-D:\Study\9A(8A)\ComputerGraphics\3D - space station room\main.cpp(915,21): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-D:\Study\9A(8A)\ComputerGraphics\3D - space station room\main.cpp(920,21): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
-D:\Study\9A(8A)\ComputerGraphics\3D - space station room\main.cpp(925,21): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-D:\Study\9A(8A)\ComputerGraphics\3D - space station room\main.cpp(930,21): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
-D:\Study\9A(8A)\ComputerGraphics\3D - space station room\main.cpp(935,24): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-D:\Study\9A(8A)\ComputerGraphics\3D - space station room\main.cpp(940,24): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
-D:\Study\9A(8A)\ComputerGraphics\3D - space station room\main.cpp(945,24): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-D:\Study\9A(8A)\ComputerGraphics\3D - space station room\main.cpp(950,24): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
-D:\Study\9A(8A)\ComputerGraphics\3D - space station room\main.cpp(955,24): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-D:\Study\9A(8A)\ComputerGraphics\3D - space station room\main.cpp(960,24): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
-  3D.vcxproj -> D:\Study\9A(8A)\ComputerGraphics\3D - space station room\x64\Debug\3D.exe
+D:\vs installer\3D---space-station-room-pratyay\main.cpp(338,28): warning C4101: 'rotateXMatrix': unreferenced local variable
+D:\vs installer\3D---space-station-room-pratyay\main.cpp(338,43): warning C4101: 'rotateYMatrix': unreferenced local variable
+D:\vs installer\3D---space-station-room-pratyay\main.cpp(1151,70): warning C4305: '+=': truncation from 'double' to 'float'
+D:\vs installer\3D---space-station-room-pratyay\main.cpp(1152,70): warning C4305: '-=': truncation from 'double' to 'float'
+D:\vs installer\3D---space-station-room-pratyay\main.cpp(1153,70): warning C4305: '+=': truncation from 'double' to 'float'
+D:\vs installer\3D---space-station-room-pratyay\main.cpp(1154,70): warning C4305: '-=': truncation from 'double' to 'float'
+D:\vs installer\3D---space-station-room-pratyay\main.cpp(1155,70): warning C4305: '+=': truncation from 'double' to 'float'
+D:\vs installer\3D---space-station-room-pratyay\main.cpp(1156,70): warning C4305: '-=': truncation from 'double' to 'float'
+D:\vs installer\3D---space-station-room-pratyay\main.cpp(1157,66): warning C4305: '+=': truncation from 'double' to 'float'
+D:\vs installer\3D---space-station-room-pratyay\main.cpp(1158,66): warning C4305: '-=': truncation from 'double' to 'float'
+D:\vs installer\3D---space-station-room-pratyay\main.cpp(1159,66): warning C4305: '+=': truncation from 'double' to 'float'
+D:\vs installer\3D---space-station-room-pratyay\main.cpp(1160,66): warning C4305: '-=': truncation from 'double' to 'float'
+D:\vs installer\3D---space-station-room-pratyay\main.cpp(1161,66): warning C4305: '+=': truncation from 'double' to 'float'
+D:\vs installer\3D---space-station-room-pratyay\main.cpp(1162,66): warning C4305: '-=': truncation from 'double' to 'float'
+D:\vs installer\3D---space-station-room-pratyay\main.cpp(1188,21): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\vs installer\3D---space-station-room-pratyay\main.cpp(1193,21): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+D:\vs installer\3D---space-station-room-pratyay\main.cpp(1198,21): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\vs installer\3D---space-station-room-pratyay\main.cpp(1203,21): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+D:\vs installer\3D---space-station-room-pratyay\main.cpp(1208,21): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\vs installer\3D---space-station-room-pratyay\main.cpp(1213,21): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+D:\vs installer\3D---space-station-room-pratyay\main.cpp(1218,24): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\vs installer\3D---space-station-room-pratyay\main.cpp(1223,24): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+D:\vs installer\3D---space-station-room-pratyay\main.cpp(1228,24): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\vs installer\3D---space-station-room-pratyay\main.cpp(1233,24): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+D:\vs installer\3D---space-station-room-pratyay\main.cpp(1238,24): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\vs installer\3D---space-station-room-pratyay\main.cpp(1243,24): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+  3D.vcxproj -> D:\vs installer\3D---space-station-room-pratyay\x64\Debug\3D.exe

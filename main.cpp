@@ -335,467 +335,459 @@ int main()
 
         
         glm::mat4 identityMatrix = glm::mat4(1.0f);
-        glm::mat4 translateMatrix, rotateXMatrix, rotateYMatrix, rotateZMatrix, scaleMatrix, model;
+glm::mat4 translateMatrix, rotateXMatrix, rotateYMatrix, rotateZMatrix, scaleMatrix, model;
 
-        // table base
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(4.0f, 0.5f, 2.0f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(0.2798394136874722f, 0.0f, 0.0f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// table base
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(4.0f, 0.5f, 2.0f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(0.2798394136874722f, 0.0f, 0.0f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // table base_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(4.2f, 0.2f, 2.2f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(0.22983941368747218f, 0.39999999999999997f, -0.050000000000000044f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// table base_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(4.2f, 0.2f, 2.2f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(0.22983941368747218f, 0.39999999999999997f, -0.050000000000000044f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // table base_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(4.0f, 0.1f, 2.0f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(0.2798394136874722f, 0.35f, 0.0f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// table base_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(4.0f, 0.1f, 2.0f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(0.2798394136874722f, 0.35f, 0.0f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // table base_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(4.2f, 0.2f, 2.2f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(0.22983941368747218f, 0.25f, -0.050000000000000044f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// table base_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(4.2f, 0.2f, 2.2f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(0.22983941368747218f, 0.25f, -0.050000000000000044f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // table base_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(4.0f, 0.1f, 2.0f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(0.2798394136874722f, 0.5f, 0.0f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// table base_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(4.0f, 0.1f, 2.0f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(0.2798394136874722f, 0.5f, 0.0f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // table base_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(4.2f, 0.2f, 2.2f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(0.22983941368747218f, 0.55f, -0.050000000000000044f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// table base_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(4.2f, 0.2f, 2.2f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(0.22983941368747218f, 0.55f, -0.050000000000000044f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // table base_copy_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(4.0f, 0.1f, 2.0f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(0.2798394136874722f, 0.65f, 0.0f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// table base_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(4.0f, 0.1f, 2.0f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(0.2798394136874722f, 0.65f, 0.0f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // table base_copy_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(4.2f, 0.2f, 2.2f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(0.22983941368747218f, 0.7000000000000001f, -0.050000000000000044f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// table base_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(4.2f, 0.2f, 2.2f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(0.22983941368747218f, 0.7000000000000001f, -0.050000000000000044f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // chair_base
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(1.0f, 0.2f, 1.0f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.702f, 0.3294450662103783f, 0.25f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// chair_base
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(1.0f, 0.2f, 1.0f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.702f, 0.3294450662103783f, 0.25f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // chair bottom x
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.8f, 0.1f, 0.7f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.652f, 0.0f, 0.325f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// chair bottom x
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.8f, 0.1f, 0.7f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.652f, 0.0f, 0.325f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // chair bottom y
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.7f, 0.1f, 0.8f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.627f, 0.0f, 0.3f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// chair bottom y
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.7f, 0.1f, 0.8f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.627f, 0.0f, 0.3f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // chair bottom xy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.7f, 0.1f, 0.7f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.627f, 0.013f, 0.325f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// chair bottom xy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.7f, 0.1f, 0.7f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.627f, 0.013f, 0.325f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // chair bottom pillar
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.5f, 0.515f, 0.5f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.577f, 0.0f, 0.375f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// chair bottom pillar
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.5f, 0.515f, 0.5f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.577f, 0.0f, 0.375f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // chair_base_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(1.0f, 0.2f, 1.1f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.702f, 0.329f, 0.22499999999999998f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// chair_base_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(1.0f, 0.2f, 1.1f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.702f, 0.329f, 0.22499999999999998f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // chair back rest
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.15f, 1.0f, 1.0f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.722f, 0.329f, 0.25f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// chair back rest
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.15f, 1.0f, 1.0f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.722f, 0.329f, 0.25f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // chair back rest_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.1f, 0.9f, 0.9f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.741f, 0.354f, 0.275f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// chair back rest_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.1f, 0.9f, 0.9f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.741f, 0.354f, 0.275f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // chair hand rest
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(1.0f, 0.3f, 0.15f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.702f, 0.429f, 0.225f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// chair hand rest
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(1.0f, 0.3f, 0.15f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.702f, 0.429f, 0.225f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // chair hand rest
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(1.0f, 0.3f, 0.15f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.702f, 0.429f, 0.7f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// chair hand rest
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(1.0f, 0.3f, 0.15f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.702f, 0.429f, 0.7f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // chair hand rest_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.8f, 0.2f, 0.2f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.652f, 0.494f, 0.688f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// chair hand rest_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.8f, 0.2f, 0.2f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.652f, 0.494f, 0.688f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // chair hand rest_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.8f, 0.2f, 0.2f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.652f, 0.494f, 0.213f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// room floor
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(15.0f, 0.2f, 15.0f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(-2.4701605863125278f, -0.1f, -3.25f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // room floor
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(15.0f, 0.2f, 15.0f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(-2.4701605863125278f, -0.1f, -3.25f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// chair head rest
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.15f, 0.4f, 0.5f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.722f, 0.829f, 0.375f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // chair head rest
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.15f, 0.4f, 0.5f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.722f, 0.829f, 0.375f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// chair head rest_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.15f, 0.3f, 0.6f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.722f, 0.854f, 0.35f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // chair head rest_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.15f, 0.3f, 0.6f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.722f, 0.854f, 0.35f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// chair head rest_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.25f, 0.3f, 0.5f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.747f, 0.854f, 0.37499999999999994f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // chair head rest_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.25f, 0.3f, 0.5f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.747f, 0.854f, 0.37499999999999994f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// room wall left
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(15.0f, 5.5f, 0.2f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(-2.4701605863125278f, 0.0f, -3.25f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // room wall left
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(15.0f, 5.5f, 0.2f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(-2.47f, -0.1f, -3.25f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// room wall right
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 5.5f, 4.418f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, -0.1f, -3.25f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // room wall right
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 5.5f, 4.418f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, -0.1f, -3.25f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// room wall right_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 5.5f, 4.418f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, -0.1f, 2.041f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // room wall right_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 5.5f, 4.418f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, -0.1f, 2.041f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// room wall right_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 1.5f, 7.0f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, -0.1f, -1.25f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // room wall right_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 1.5f, 7.0f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, -0.1f, -1.25f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// room wall right_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 1.0f, 7.0f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, 2.1500761746371024f, -1.25f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // room wall right_copy_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 1.0f, 7.0f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, 2.1500761746371024f, -1.25f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// room wall right_copy_copy_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 0.5f, 0.5f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, 1.9070512311216876f, -1.0463522154689289f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // room wall right_copy_copy_copy_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 0.5f, 0.5f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, 1.9070512311216876f, -1.0463522154689289f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// room wall right_copy_copy_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 0.5f, 0.5f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, 1.7591894061370348f, -1.164902882416939f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // room wall right_copy_copy_copy_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 0.5f, 0.5f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, 1.7591894061370348f, -1.164902882416939f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// room wall right_copy_copy_copy_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 0.5f, 0.5f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, 1.9000761746371024f, 1.7958778725414823f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // room wall right_copy_copy_copy_copy_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 0.5f, 0.5f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, 1.9000761746371024f, 1.7958778725414823f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// room wall right_copy_copy_copy_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 0.5f, 0.5f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, 2.0144925723807567f, -0.9226597896603219f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // room wall right_copy_copy_copy_copy_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 0.5f, 0.5f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, 2.0144925723807567f, -0.9226597896603219f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// room wall right_copy_copy_copy_copy_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 0.5f, 0.5f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, 2.0123501288866814f, 1.667000511777092f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // room wall right_copy_copy_copy_copy_copy_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 0.5f, 0.5f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, 2.0123501288866814f, 1.667000511777092f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// room wall right_copy_copy_copy_copy_copy_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 0.5f, 0.5f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, 1.7673804101979327f, 1.9244862957544835f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // room wall right_copy_copy_copy_copy_copy_copy_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 0.5f, 0.5f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, 1.7673804101979327f, 1.9244862957544835f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// room wall right_copy_copy_copy_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 0.5f, 0.5f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, 0.6439858102134575f, -1.0463522154689289f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // room wall right_copy_copy_copy_copy_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 0.5f, 0.5f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, 0.6439858102134575f, -1.0463522154689289f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// room wall right_copy_copy_copy_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 0.5f, 0.5f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, 0.7583202593181471f, -1.1832593905849045f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // room wall right_copy_copy_copy_copy_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 0.5f, 0.5f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, 0.7583202593181471f, -1.1832593905849045f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// room wall right_copy_copy_copy_copy_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 0.5f, 0.5f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, 0.5105074691629226f, -0.9336961201688809f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // room wall right_copy_copy_copy_copy_copy_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 0.5f, 0.5f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, 0.5105074691629226f, -0.9336961201688809f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// room wall right_copy_copy_copy_copy_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 0.5f, 0.5f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, 0.6486342422907343f, 1.7958205941073389f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // room wall right_copy_copy_copy_copy_copy_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 0.5f, 0.5f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, 0.6486342422907343f, 1.7958205941073389f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// room wall right_copy_copy_copy_copy_copy_copy_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 0.5f, 0.5f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, 0.765162494796233f, 1.9244862957544835f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // room wall right_copy_copy_copy_copy_copy_copy_copy_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 0.5f, 0.5f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, 0.765162494796233f, 1.9244862957544835f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// room wall right_copy_copy_copy_copy_copy_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 0.5f, 0.5f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, 0.5277472979892717f, 1.667000511777092f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // room wall right_copy_copy_copy_copy_copy_copy_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 0.5f, 0.5f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.93f, 0.5277472979892717f, 1.667000511777092f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// room wall right_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.8f, 1.1f, 15.0f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.629999999999999f, -0.1f, -3.25f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // room wall right_copy_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.8f, 1.1f, 15.0f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.629999999999999f, -0.1f, -3.25f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// room wall right_copy_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.16159609344292794f, 0.728956168443726f, 15.0f));
+rotateZMatrix = glm::rotate(identityMatrix, glm::radians(-56.448109209000535f), glm::vec3(0.0f, 0.0f, 1.0f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.62978740621484f, 0.448329602501177f, -3.25f));
+model = translateMatrix * rotateZMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // room wall right_copy_copy_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.16159609344292794f, 0.728956168443726f, 15.0f));
-        rotateZMatrix = glm::rotate(identityMatrix, glm::radians(-56.448109209000535f), glm::vec3(0.0f, 0.0f, 1.0f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.62978740621484f, 0.448329602501177f, -3.25f));
-        model = translateMatrix * rotateZMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// computer body
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.5f, 0.8f, 0.8f));
+rotateZMatrix = glm::rotate(identityMatrix, glm::radians(-11.435f), glm::vec3(0.0f, 0.0f, 1.0f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.557f, 0.407f, 0.3f));
+model = translateMatrix * rotateZMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // computer body
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.5f, 0.8f, 0.8f));
-        rotateZMatrix = glm::rotate(identityMatrix, glm::radians(-11.435f), glm::vec3(0.0f, 0.0f, 1.0f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.557f, 0.407f, 0.3f));
-        model = translateMatrix * rotateZMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// computer
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.5f, 0.7f, 0.7f));
+rotateZMatrix = glm::rotate(identityMatrix, glm::radians(-11.435f), glm::vec3(0.0f, 0.0f, 1.0f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.539568570428004f, 0.43570543494587805f, 0.325f));
+model = translateMatrix * rotateZMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // computer
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.5f, 0.7f, 0.7f));
-        rotateZMatrix = glm::rotate(identityMatrix, glm::radians(-11.435f), glm::vec3(0.0f, 0.0f, 1.0f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.539568570428004f, 0.43570543494587805f, 0.325f));
-        model = translateMatrix * rotateZMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// computer body copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.5f, 0.7f, 0.9f));
+rotateZMatrix = glm::rotate(identityMatrix, glm::radians(-11.435f), glm::vec3(0.0f, 0.0f, 1.0f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.557f, 0.432f, 0.275f));
+model = translateMatrix * rotateZMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // computer body copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.5f, 0.7f, 0.9f));
-        rotateZMatrix = glm::rotate(identityMatrix, glm::radians(-11.435f), glm::vec3(0.0f, 0.0f, 1.0f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.557f, 0.432f, 0.275f));
-        model = translateMatrix * rotateZMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// computer body_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.6834587217934712f, 0.2f, 0.8f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.345082383130537f, 0.30699999999999994f, 0.3f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // computer body_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.6834587217934712f, 0.2f, 0.8f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.345082383130537f, 0.30699999999999994f, 0.3f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// computer body_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.7f, 1.0f, 0.6f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.461f, -0.091f, -0.038615081362191495f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // computer body_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.7f, 1.0f, 0.6f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.461f, -0.091f, -0.038615081362191495f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// computer body_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.7f, 0.569f, 0.6f));
+rotateZMatrix = glm::rotate(identityMatrix, glm::radians(-43.0f), glm::vec3(0.0f, 0.0f, 1.0f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.461f, 0.407f, 0.737f));
+model = translateMatrix * rotateZMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // computer body_copy_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.7f, 0.569f, 0.6f));
-        rotateZMatrix = glm::rotate(identityMatrix, glm::radians(-43.0f), glm::vec3(0.0f, 0.0f, 1.0f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.461f, 0.407f, 0.737f));
-        model = translateMatrix * rotateZMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// computer body_copy_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.7f, 0.569f, 0.6f));
+rotateZMatrix = glm::rotate(identityMatrix, glm::radians(-5.0f), glm::vec3(0.0f, 0.0f, 1.0f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.628348850124319f, 0.33351634715113454f, 0.737f));
+model = translateMatrix * rotateZMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // computer body_copy_copy_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.7f, 0.569f, 0.6f));
-        rotateZMatrix = glm::rotate(identityMatrix, glm::radians(-5.0f), glm::vec3(0.0f, 0.0f, 1.0f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.628348850124319f, 0.33351634715113454f, 0.737f));
-        model = translateMatrix * rotateZMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// computer body_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.7f, 1.0f, 0.6f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.461f, -0.091f, 0.737f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // computer body_copy_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.7f, 1.0f, 0.6f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.461f, -0.091f, 0.737f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// computer body_copy_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.7f, 0.569f, 0.6f));
+rotateZMatrix = glm::rotate(identityMatrix, glm::radians(-43.0f), glm::vec3(0.0f, 0.0f, 1.0f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.461f, 0.407f, -0.038615081362191495f));
+model = translateMatrix * rotateZMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // computer body_copy_copy_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.7f, 0.569f, 0.6f));
-        rotateZMatrix = glm::rotate(identityMatrix, glm::radians(-43.0f), glm::vec3(0.0f, 0.0f, 1.0f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.461f, 0.407f, -0.038615081362191495f));
-        model = translateMatrix * rotateZMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// computer body_copy_copy_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.7f, 0.569f, 0.6f));
+rotateZMatrix = glm::rotate(identityMatrix, glm::radians(-5.0f), glm::vec3(0.0f, 0.0f, 1.0f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.633612354415408f, 0.3289524191179264f, -0.038615081362191495f));
+model = translateMatrix * rotateZMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // computer body_copy_copy_copy_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.7f, 0.569f, 0.6f));
-        rotateZMatrix = glm::rotate(identityMatrix, glm::radians(-5.0f), glm::vec3(0.0f, 0.0f, 1.0f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.633612354415408f, 0.3289524191179264f, -0.038615081362191495f));
-        model = translateMatrix * rotateZMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// computer body_copy_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.7f, 0.4f, 0.5f));
+rotateZMatrix = glm::rotate(identityMatrix, glm::radians(-43.0f), glm::vec3(0.0f, 0.0f, 1.0f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.487174962512758f, 0.4552336691534423f, 0.762f));
+model = translateMatrix * rotateZMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // computer body_copy_copy_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.7f, 0.4f, 0.5f));
-        rotateZMatrix = glm::rotate(identityMatrix, glm::radians(-43.0f), glm::vec3(0.0f, 0.0f, 1.0f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.487174962512758f, 0.4552336691534423f, 0.762f));
-        model = translateMatrix * rotateZMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// computer body_copy_copy_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.7f, 0.4f, 0.5f));
+rotateZMatrix = glm::rotate(identityMatrix, glm::radians(-43.0f), glm::vec3(0.0f, 0.0f, 1.0f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.4711639860997066f, 0.46613320981589285f, -0.0136150813621915f));
+model = translateMatrix * rotateZMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // computer body_copy_copy_copy_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.7f, 0.4f, 0.5f));
-        rotateZMatrix = glm::rotate(identityMatrix, glm::radians(-43.0f), glm::vec3(0.0f, 0.0f, 1.0f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.4711639860997066f, 0.46613320981589285f, -0.0136150813621915f));
-        model = translateMatrix * rotateZMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+// computer body_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.3f, 0.2f, 0.6f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(4.361405362939237f, 0.33132125692947795f, 0.36532943244181076f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
-        // computer body_copy_copy
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.3f, 0.2f, 0.6f));
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(4.361405362939237f, 0.33132125692947795f, 0.36532943244181076f));
-        model = translateMatrix * scaleMatrix;
-        ourShader.setMat4("model", model);
-        glBindVertexArray(VAO);
-        glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
-
-        // showcase back
+// showcase back
 scaleMatrix = glm::scale(identityMatrix, glm::vec3(3.0f, 4.0f, 0.2f));
 translateMatrix = glm::translate(identityMatrix, glm::vec3(1.03f, 0.0f, -3.13f));
 model = translateMatrix * scaleMatrix;
@@ -996,6 +988,104 @@ model = translateMatrix * scaleMatrix;
 ourShader.setMat4("model", model);
 glBindVertexArray(VAO);
 glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+
+// Cube_59
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(1.0f, 1.5f, 0.2f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(-1.2977540933125031f, 1.4997186228432484f, -3.151601780300391f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+
+// storage box_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(2.0f, 2.0f, 1.5f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(0.07656845793384584f, 0.02935829014660506f, 0.12514861427942497f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+
+// storage box_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(2.1f, 0.4f, 0.4f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.04148118354999592f, 0.7870615801125989f, -2.53725192833433f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+
+// storage box_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.4f, 1.8888773926324796f, 0.4f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.06920912203554401f, 0.04531036754014683f, -2.5082704961980977f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+
+// storage box_copy_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(2.1f, 0.4f, 0.4f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.05052042395536005f, 0.0029616700739163726f, -2.5889931754905056f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+
+// showcase trophy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(1.0f, 0.2f, 1.0f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(0.28309790493185627f, 1.0f, -3.1047705870897944f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+
+// storage box_copy_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.4f, 0.4f, 1.6f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.08805911913707398f, 0.7901093296037957f, -3.191650448379696f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+
+// storage box_copy_copy_copy_copy_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.4f, 0.4f, 1.6f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.018799310073334213f, 0.010037886165738502f, -3.121428627119054f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+
+// storage box_copy_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.4f, 1.8888773926324796f, 0.4f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(-0.18143990097359772f, 0.042434321961546284f, -3.1221031019093175f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+
+// showcase trophy_copy_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 0.5f, 0.2f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(3.4301199223023096f, 1.0f, -2.875977074413886f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+
+// showcase trophy_copy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.2f, 0.5f, 0.2f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(3.219263055871115f, 0.9828973247020737f, -3.0757237434266487f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+
+// showcase trophy_copy_copy
+scaleMatrix = glm::scale(identityMatrix, glm::vec3(1.0f, 0.1f, 1.0f));
+translateMatrix = glm::translate(identityMatrix, glm::vec3(0.142f, 0.905f, 0.145f));
+model = translateMatrix * scaleMatrix;
+ourShader.setMat4("model", model);
+glBindVertexArray(VAO);
+glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+
+
 
 
 
